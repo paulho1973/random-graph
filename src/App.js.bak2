@@ -2,12 +2,6 @@ import * as React from "react";
 import { Routes, Route, Outlet, Link } from "react-router-dom";
 import './styles.css';
 
-import Tree from './Tree';
-
-import { DATA } from './constants';
-
-import Test from './Test';
-
 export default function App() {
   return (
     <div>
@@ -31,7 +25,6 @@ export default function App() {
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="dashboard" element={<Dashboard />} />
-          <Route path="test" element={<Test />} />
 
           {/* Using path="*"" means "match anything", so this route
                 acts like a catch-all for URLs that we don't have explicit
@@ -45,43 +38,43 @@ export default function App() {
 
 function Layout() {
   return (
-    <div className="main2-layout">
+    <div className="main-layout">
+      {/* A "layout route" is a good place to put markup you want to
+          share across all the pages on your site, like navigation. */}
+      <div className="left-layout">
+        <nav>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/about">About</Link>
+            </li>
+            <li>
+              <Link to="/dashboard">Dashboard</Link>
+            </li>
+            <li>
+              <Link to="/nothing-here">Nothing Here</Link>
+            </li>
+          </ul>
+        </nav>
+      </div>
 
-        <div className="header2-layout">
-          RANDOM GRAPH
+      {/*
+      <hr />
+      */}
+
+      {/* An <Outlet> renders whatever child route is currently active,
+          so you can think about this <Outlet> as a placeholder for
+          the child routes we defined above. */}
+      <div className="right-layout">
+        <div className="header-layout">
+          Header
         </div>
-
-        <div className="content2-layout">
-           
-            <div className="left2-layout">
-                {/*
-                <nav>
-                <ul>
-                    <li>
-                    <Link to="/">Home</Link>
-                    </li>
-                    <li>
-                    <Link to="/about">About</Link>
-                    </li>
-                    <li>
-                    <Link to="/dashboard">Dashboard</Link>
-                    </li>
-                    <li>
-                    <Link to="/nothing-here">Nothing Here</Link>
-                    </li>
-                </ul>
-                </nav>
-                */}
-                <div className="tree">
-                 <Tree data={DATA} />
-                </div>
-            </div>
-            <div className="right2-layout">
-                <Outlet />
-            </div>
-
+        <div className="content-layout">
+          <Outlet />
         </div>
-
+      </div>
     </div>
   );
 }
@@ -103,7 +96,7 @@ function Home() {
 function About() {
   return (
     <div>
-      <h2>About gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg</h2>
+      <h2>About</h2>
     </div>
   );
 }
