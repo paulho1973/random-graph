@@ -68,4 +68,14 @@ export const DATA = [
 		label: 'Nothing Here',
 		link: '/nothing-here',
 	},
+	{
+		id: '6',
+		label: 'Counter',
+		link: '/counter',
+	},
+	{
+		id: '7',
+		label: 'ApolloClient',
+		link: '/apolloclient',
+	},
 ];

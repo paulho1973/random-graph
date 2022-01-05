@@ -7,6 +7,8 @@ import Tree from './Tree';
 import { DATA } from './constants';
 
 import Test from './Test';
+import Counter from './Counter';
+import ApolloTest from './ApolloTest';
 
 export default function App() {
   return (
@@ -32,6 +34,8 @@ export default function App() {
           <Route path="about" element={<About />} />
           <Route path="dashboard" element={<Dashboard />} />
           <Route path="test" element={<Test />} />
+          <Route path="counter" element={<Counter />} />
+          <Route path="apolloclient" element={<ApolloTest />} />
 
           {/* Using path="*"" means "match anything", so this route
                 acts like a catch-all for URLs that we don't have explicit
