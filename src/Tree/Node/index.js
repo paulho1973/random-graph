@@ -17,7 +17,7 @@ const Node = ({ item, selected, hasChildren, level, onToggle }) => {
 				<div className={styles.tooltip} >
 					{item.label}
 					{ item.desc && 
-					<span class={styles.tooltiptext}>{item.desc}</span>
+					<span className={styles.tooltiptext}>{item.desc}</span>
 					}
 				</div>
 			</Link>
