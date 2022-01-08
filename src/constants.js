@@ -55,27 +55,29 @@ export const DATA = [
 	},
 	{
 		id: '3',
-		label: 'Dashboard',
-		link: '/dashboard',
+		label: 'Nothing Here',
+		link: '/nothing-here',
+		desc: 'catching for invalid url',
 	},
 	{
 		id: '4',
 		label: 'Test',
 		link: '/test',
+		source: 'https://github.com/paulho1973/random-graph/tree/master/src/Test',
+		desc: 'Sample React Component',
 	},
 	{
 		id: '5',
-		label: 'Nothing Here',
-		link: '/nothing-here',
+		label: 'Counter',
+		link: '/counter',
+		source: 'https://github.com/paulho1973/random-graph/tree/master/src/Counter',
+		desc: 'Sample Redux Store'
 	},
 	{
 		id: '6',
-		label: 'Counter',
-		link: '/counter',
-	},
-	{
-		id: '7',
 		label: 'ApolloClient',
 		link: '/apolloclient',
+		source: 'https://github.com/paulho1973/random-graph/tree/master/src/ApolloTest',
+		desc: 'Sample React Apollo Client',
 	},
 ];

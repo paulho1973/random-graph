@@ -9,6 +9,7 @@ import { DATA } from './constants';
 import Test from './Test';
 import Counter from './Counter';
 import ApolloTest from './ApolloTest';
+import FixedButton from './FixedButton';
 
 export default function App() {
   return (
@@ -32,7 +33,6 @@ export default function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
-          <Route path="dashboard" element={<Dashboard />} />
           <Route path="test" element={<Test />} />
           <Route path="counter" element={<Counter />} />
           <Route path="apolloclient" element={<ApolloTest />} />
@@ -82,6 +82,7 @@ function Layout() {
             </div>
             <div className="right2-layout">
                 <Outlet />
+                <FixedButton />
             </div>
 
         </div>
@@ -107,15 +108,7 @@ function Home() {
 function About() {
   return (
     <div>
-      <h2>About gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg</h2>
-    </div>
-  );
-}
-
-function Dashboard() {
-  return (
-    <div>
-      <h2>Dashboard</h2>
+      <h2>Random Graph is collection of useful React Components with source code</h2>
     </div>
   );
 }

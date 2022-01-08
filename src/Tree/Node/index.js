@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
+import styles from './Node.module.css';
+
 const Node = ({ item, selected, hasChildren, level, onToggle }) => {
 	return (
 		<div style={{ paddingLeft: `${level * 16}px`}}>
@@ -11,7 +13,14 @@ const Node = ({ item, selected, hasChildren, level, onToggle }) => {
 			{item.label}
 			*/}
 
-			<Link to={item.link}>{item.label}</Link>
+			<Link to={item.link}>
+				<div className={styles.tooltip} >
+					{item.label}
+					{ item.desc && 
+					<span class={styles.tooltiptext}>{item.desc}</span>
+					}
+				</div>
+			</Link>
 
 			{/*
 			{hasChildren && <button onClick={onToggle}>toggle</button>}
