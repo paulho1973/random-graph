@@ -91,7 +91,6 @@ export const DATA = [
 		id: '8',
 		label: 'Center',
 		link: '/center',
-		source: 'https://github.com/paulho1973/random-graph/tree/master/src/Center',
 		desc: 'center',
 	},
 ];
