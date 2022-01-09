@@ -99,3 +99,42 @@
   .tree {
       padding: 20px;
   }
+
+  .home {
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+  }
+
+  .home-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .home-logo {
+      animation: home-logo-float infinite 3s ease-in-out;
+    }
+  }
+  
+  @keyframes home-logo-float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(10px)
+    }
+    100% {
+      transform: translateY(0px)
+    }
+  }
+
+  .center-container { 
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+    width: 100%;
+  }

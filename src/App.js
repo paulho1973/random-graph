@@ -10,6 +10,9 @@ import Test from './Test';
 import Counter from './Counter';
 import ApolloTest from './ApolloTest';
 import FixedButton from './FixedButton';
+import Iteration from './Iteration';
+
+import logo from './logo/Soccerball.svg';
 
 export default function App() {
   return (
@@ -36,6 +39,8 @@ export default function App() {
           <Route path="test" element={<Test />} />
           <Route path="counter" element={<Counter />} />
           <Route path="apolloclient" element={<ApolloTest />} />
+          <Route path="iteration" element={<Iteration />} />
+          <Route path="Center" element={<Center />} />
 
           {/* Using path="*"" means "match anything", so this route
                 acts like a catch-all for URLs that we don't have explicit
@@ -92,15 +97,13 @@ function Layout() {
 }
 
 
-var rows = [];
-for (var i = 0; i < 30; i++) {
-    rows.push(<h2 key={i}>Home</h2>);
-}
-
 function Home() {
   return (
-    <div>
-      {rows}
+    <div className="center-container">
+      <div className="home">
+        <img src={logo} className="home-logo" alt="logo" />
+        <h2>Random Graph</h2>
+      </div>
     </div>
   );
 }
@@ -121,5 +124,15 @@ function NoMatch() {
         <Link to="/">Go to the home page</Link>
       </p>
     </div>
+  );
+}
+
+function Center() {
+  return (
+
+    <div className="center-container">
+      <div>center</div>
+    </div>
+  
   );
 }

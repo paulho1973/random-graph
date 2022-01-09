@@ -80,4 +80,18 @@ export const DATA = [
 		source: 'https://github.com/paulho1973/random-graph/tree/master/src/ApolloTest',
 		desc: 'Sample React Apollo Client',
 	},
+	{
+		id: '7',
+		label: 'Iteration',
+		link: '/iteration',
+		source: 'https://github.com/paulho1973/random-graph/tree/master/src/Iteration',
+		desc: 'iteration',
+	},
+	{
+		id: '8',
+		label: 'Center',
+		link: '/center',
+		source: 'https://github.com/paulho1973/random-graph/tree/master/src/Center',
+		desc: 'center',
+	},
 ];
