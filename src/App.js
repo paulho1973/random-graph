@@ -11,6 +11,8 @@ import Counter from './Counter';
 import ApolloTest from './ApolloTest';
 import FixedButton from './FixedButton';
 import Iteration from './Iteration';
+import SignupForm from './SignupForm';
+import ContactForm from './ContactForm';
 
 import logo from './logo/Soccerball.svg';
 
@@ -40,7 +42,9 @@ export default function App() {
           <Route path="counter" element={<Counter />} />
           <Route path="apolloclient" element={<ApolloTest />} />
           <Route path="iteration" element={<Iteration />} />
-          <Route path="Center" element={<Center />} />
+          <Route path="center" element={<Center />} />
+          <Route path="signupform" element={<SignupForm />} />
+          <Route path="contactform" element={<ContactForm />} />
 
           {/* Using path="*"" means "match anything", so this route
                 acts like a catch-all for URLs that we don't have explicit

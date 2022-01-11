@@ -14,7 +14,7 @@ const FixedButton = () => {
 	return (
 		<div className={styles.container}>
 			{ obj.source && 
-				<button onClick={ ()=>{ window.location.href = obj.source } }>Source Code</button>
+				<button className={styles.button} onClick={ ()=>{ window.location.href = obj.source } }>Source Code</button>
 			}
 		</div>
 	);

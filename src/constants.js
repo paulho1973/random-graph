@@ -93,4 +93,17 @@ export const DATA = [
 		link: '/center',
 		desc: 'center',
 	},
+	{
+		id: '9',
+		label: 'Signup Form',
+		link: '/signupform',
+		source: 'https://github.com/paulho1973/random-graph/tree/master/src/SignupForm',
+		desc: 'Signup Form',
+	},
+	{
+		id: '10',
+		label: 'Contact Form',
+		link: '/contactform',
+		desc: 'Contact Form',
+	},
 ];
