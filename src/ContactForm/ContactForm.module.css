@@ -1,0 +1,83 @@
+
+.contain {
+    display: grid;
+    background: #f9f9f9;
+    border: 1px solid #c1c1c1;
+    margin: 2rem;
+    width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.contacts {
+  background: #4b5195;
+  color: #fff;
+  padding: 1em;
+}
+
+.h3 {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.formfill {
+  padding: 1em;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.label {
+  display: block;
+}
+
+.p {
+  margin: 0;
+}
+
+.fullwidth {
+  margin: 0;
+  grid-column: 1 / 3;
+}
+
+.input {
+  background: #fff;
+  border: 1px solid #9c9c9c;
+  padding: 0.7em;
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+
+.input:focus {
+  outline: 3px solid gold;
+}
+
+.textarea {
+  width: 100%;
+}
+
+.textarea:focus {
+  outline: 3px solid gold;
+}
+
+.button {
+  width: 100%;
+  background: lightgrey;
+  width: 100%;
+  border: 0;
+  padding: 1em;
+}
+
+.button:hover, .button:focus {
+  background: gold;
+  outline: 0;
+}
