@@ -1,0 +1,56 @@
+.wrapper {
+  max-width: 700px;
+  background: #f9f9f9;
+  border: 1px solid #c1c1c1;
+  padding: 1em;
+  margin: 2rem;
+}
+
+.h3 {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.label {
+  display: block;
+}
+
+.input {
+  background: #fff;
+  border: 1px solid #9c9c9c;
+  padding: 1em;
+  width: 100%;
+}
+
+.input:focus {
+  outline: 3px solid gold;
+}
+
+.button {
+  background: lightgrey;
+  width: 100%;
+  border: 0;
+  padding: 1em;
+}
+
+.button:hover, .button:focus {
+  background: gold;
+  outline: 0;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 20px;
+}
+
+.p {
+  grid-column: 1 / 2;
+  margin: 0;
+}
+
+.inputfilewrapper {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  margin: 0;
+}

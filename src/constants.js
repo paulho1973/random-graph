@@ -104,6 +104,14 @@ export const DATA = [
 		id: '10',
 		label: 'Contact Form',
 		link: '/contactform',
+		source: 'https://github.com/paulho1973/random-graph/tree/master/src/ContactForm',
 		desc: 'Contact Form',
+	},
+	{
+		id: '11',
+		label: 'Profile Form',
+		link: '/profileform',
+		source: 'https://github.com/paulho1973/random-graph/tree/master/src/ProfileForm',
+		desc: 'Profile Form',
 	},
 ];
