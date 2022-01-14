@@ -14,6 +14,7 @@ import Iteration from './Iteration';
 import SignupForm from './SignupForm';
 import ContactForm from './ContactForm';
 import ProfileForm from './ProfileForm';
+import ButtonNo from './ButtonNo';
 
 import logo from './logo/Soccerball.svg';
 
@@ -47,6 +48,7 @@ export default function App() {
           <Route path="signupform" element={<SignupForm />} />
           <Route path="contactform" element={<ContactForm />} />
           <Route path="profileform" element={<ProfileForm />} />
+          <Route path="buttonno" element={<ButtonNo />} />
 
           {/* Using path="*"" means "match anything", so this route
                 acts like a catch-all for URLs that we don't have explicit

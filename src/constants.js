@@ -114,4 +114,11 @@ export const DATA = [
 		source: 'https://github.com/paulho1973/random-graph/tree/master/src/ProfileForm',
 		desc: 'Profile Form',
 	},
+	{
+		id: '12',
+		label: 'Button No',
+		link: '/buttonno',
+		source: 'https://github.com/paulho1973/random-graph/tree/master/src/ButtonNo',
+		desc: 'Button No Double Click',
+	},
 ];
