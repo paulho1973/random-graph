@@ -15,6 +15,13 @@ import SignupForm from './SignupForm';
 import ContactForm from './ContactForm';
 import ProfileForm from './ProfileForm';
 import ButtonNo from './ButtonNo';
+import PageLayout1 from './PageLayout1';
+import PageLayout2 from './PageLayout2';
+import PageLayout3 from './PageLayout3';
+import PageLayout4 from './PageLayout4';
+import SectionScroll from './SectionScroll';
+import ReactRef from './ReactRef';
+import DragDropImage from './DragDropImage';
 
 import logo from './logo/Soccerball.svg';
 
@@ -49,6 +56,14 @@ export default function App() {
           <Route path="contactform" element={<ContactForm />} />
           <Route path="profileform" element={<ProfileForm />} />
           <Route path="buttonno" element={<ButtonNo />} />
+          <Route path="profileform" element={<ProfileForm />} />
+          <Route path="pagelayout1" element={<PageLayout1 />} />
+          <Route path="pagelayout2" element={<PageLayout2 />} />
+          <Route path="pagelayout3" element={<PageLayout3 />} />
+          <Route path="pagelayout4" element={<PageLayout4 />} />
+          <Route path="sectionscroll" element={<SectionScroll />} />
+          <Route path="reactref" element={<ReactRef />} />
+          <Route path="dragdropimage" element={<DragDropImage />} />
 
           {/* Using path="*"" means "match anything", so this route
                 acts like a catch-all for URLs that we don't have explicit
