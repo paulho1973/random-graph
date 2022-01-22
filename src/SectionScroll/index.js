@@ -40,7 +40,7 @@ const SectionScroll = () => {
   
 	useEffect(() => {
 	  const handleScroll = () => {
-		const { height: headerHeight } = getDimensions(headerRef.current);
+		//const { height: headerHeight } = getDimensions(headerRef.current);
 
 		const { height: section1Height,
 			    offsetBottom: section1Bottom, 
