@@ -62,7 +62,7 @@ const SectionScroll = () => {
 		console.log(section2Bottom);
 		console.log(section2Top);
   
-		const selected = sectionRefs.find(({ section, ref }) => {
+		const selected = sectionRefs.find(({ ref }) => {
 		  const ele = ref.current;
 		  if (ele) {
 			const { offsetBottom, offsetTop } = getDimensions(ele);
@@ -83,7 +83,7 @@ const SectionScroll = () => {
 	  return () => {
 		window.removeEventListener("scroll", handleScroll);
 	  };
-	}, [visibleSection, sectionRefs]);
+	}, [visibleSection]);
 
 
 	return (
