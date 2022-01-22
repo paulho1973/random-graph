@@ -68,6 +68,7 @@ const SectionScroll = () => {
 			const { offsetBottom, offsetTop } = getDimensions(ele);
 			return scrollPosition > offsetTop && scrollPosition < offsetBottom;
 		  }
+		  return false;
 		});
 
 		if (selected && selected.section !== visibleSection) {
@@ -82,7 +83,7 @@ const SectionScroll = () => {
 	  return () => {
 		window.removeEventListener("scroll", handleScroll);
 	  };
-	}, [visibleSection, section1Ref]);
+	}, [visibleSection, section1Refs]);
 
 
 	return (
