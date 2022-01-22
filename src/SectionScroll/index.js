@@ -30,16 +30,16 @@ const SectionScroll = () => {
 	const section2Ref = useRef(null);
 	const section3Ref = useRef(null);
 	const section4Ref = useRef(null);
-
-	const sectionRefs = [
-	  { section: "Section1", ref: section1Ref },
-	  { section: "Section2", ref: section2Ref },
-	  { section: "Section3", ref: section3Ref },
-	  { section: "Section4", ref: section4Ref },
-	];
   
 	useEffect(() => {
 	  const handleScroll = () => {
+
+		const sectionRefs = [
+			{ section: "Section1", ref: section1Ref },
+			{ section: "Section2", ref: section2Ref },
+			{ section: "Section3", ref: section3Ref },
+			{ section: "Section4", ref: section4Ref },
+		  ];
 		//const { height: headerHeight } = getDimensions(headerRef.current);
 
 		const { height: section1Height,
