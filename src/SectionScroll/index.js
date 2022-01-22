@@ -82,7 +82,7 @@ const SectionScroll = () => {
 	  return () => {
 		window.removeEventListener("scroll", handleScroll);
 	  };
-	}, [visibleSection]);
+	}, [visibleSection, section1Ref]);
 
 
 	return (
