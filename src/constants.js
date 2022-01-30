@@ -170,4 +170,25 @@ export const DATA = [
 		source: 'https://github.com/paulho1973/random-graph/tree/master/src/DragDropImage',
 		desc: 'Drag Drop Image',
 	},
+	{
+		id: '20',
+		label: 'Drag Drop Display',
+		link: '/dragdropdisplay',
+		source: 'https://github.com/paulho1973/random-graph/tree/master/src/DragDropDisplay',
+		desc: 'Drag Drop Display',
+	},
+	{
+		id: '21',
+		label: 'Before Leave',
+		link: '/beforeleave',
+		source: 'https://github.com/paulho1973/random-graph/tree/master/src/BeforeLeave',
+		desc: 'Before Leave',
+	},
+	{
+		id: '22',
+		label: 'Modal Demo',
+		link: '/modaldemo',
+		source: 'https://github.com/paulho1973/random-graph/tree/master/src/ModalDemo',
+		desc: 'Modal Demo',
+	},
 ];

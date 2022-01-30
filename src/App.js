@@ -22,6 +22,9 @@ import PageLayout4 from './PageLayout4';
 import SectionScroll from './SectionScroll';
 import ReactRef from './ReactRef';
 import DragDropImage from './DragDropImage';
+import DragDropDisplay from './DragDropDisplay';
+import BeforeLeave from './BeforeLeave';
+import ModalDemo from './ModalDemo';
 
 import logo from './logo/Soccerball.svg';
 
@@ -64,6 +67,9 @@ export default function App() {
           <Route path="sectionscroll" element={<SectionScroll />} />
           <Route path="reactref" element={<ReactRef />} />
           <Route path="dragdropimage" element={<DragDropImage />} />
+          <Route path="dragdropdisplay" element={<DragDropDisplay />} />
+          <Route path="beforeleave" element={<BeforeLeave />} />
+          <Route path="modaldemo" element={<ModalDemo />} />
 
           {/* Using path="*"" means "match anything", so this route
                 acts like a catch-all for URLs that we don't have explicit
