@@ -19,7 +19,7 @@ const DragDropDisplay = () => {
             }
 		} 
 
-	}, [])
+	}, [previewUrl])
 
     const preventDefault = (e) => {
         e.preventDefault();
@@ -90,7 +90,7 @@ const DragDropDisplay = () => {
                 </div>		
                 { previewUrl && image &&
                     <div className={styles.image}>
-                        <img src={previewUrl} height="200px" width="200px" alt='image' /> 
+                        <img src={previewUrl} height="200px" width="200px" alt='upload' /> 
                         <span> {image.name} </span>
                     </div> 
                 }

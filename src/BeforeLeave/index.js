@@ -6,9 +6,11 @@ const BeforeLeave = () => {
 
 	const [modal, setModal] = useState(false);
 
+	/*
 	const showModal = () => {
 		setModal(true);
 	}
+	*/
 	  
 	const hideModal = () => {
 		setModal(false);
