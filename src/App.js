@@ -27,6 +27,7 @@ import BeforeLeave from './BeforeLeave';
 import ModalDemo from './ModalDemo';
 import LazyImage from './LazyImage';
 import SearchBar from './SearchBar';
+import LazyComponent from './LazyComponent';
 
 import logo from './logo/Soccerball.svg';
 
@@ -74,6 +75,7 @@ export default function App() {
           <Route path="modaldemo" element={<ModalDemo />} />
           <Route path="lazyimage" element={<LazyImage />} />
           <Route path="searchbar" element={<SearchBar />} />
+          <Route path="lazycomponent" element={<LazyComponent />} />
 
           {/* Using path="*"" means "match anything", so this route
                 acts like a catch-all for URLs that we don't have explicit

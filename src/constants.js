@@ -205,4 +205,11 @@ export const DATA = [
 		source: 'https://github.com/paulho1973/random-graph/tree/master/src/SearchBar',
 		desc: 'Search Bar',
 	},
+	{
+		id: '25',
+		label: 'Lazy Component',
+		link: '/lazycomponent',
+		source: 'https://github.com/paulho1973/random-graph/tree/master/src/LazyComponent',
+		desc: 'Lazy Component',
+	},
 ];
