@@ -191,4 +191,18 @@ export const DATA = [
 		source: 'https://github.com/paulho1973/random-graph/tree/master/src/ModalDemo',
 		desc: 'Modal Demo',
 	},
+	{
+		id: '23',
+		label: 'Lazy Image',
+		link: '/lazyimage',
+		source: 'https://github.com/paulho1973/random-graph/tree/master/src/LazyImage',
+		desc: 'Lazy Image',
+	},
+	{
+		id: '24',
+		label: 'Search Bar',
+		link: '/searchbar',
+		source: 'https://github.com/paulho1973/random-graph/tree/master/src/SearchBar',
+		desc: 'Search Bar',
+	},
 ];

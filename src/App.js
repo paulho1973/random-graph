@@ -25,6 +25,8 @@ import DragDropImage from './DragDropImage';
 import DragDropDisplay from './DragDropDisplay';
 import BeforeLeave from './BeforeLeave';
 import ModalDemo from './ModalDemo';
+import LazyImage from './LazyImage';
+import SearchBar from './SearchBar';
 
 import logo from './logo/Soccerball.svg';
 
@@ -70,6 +72,8 @@ export default function App() {
           <Route path="dragdropdisplay" element={<DragDropDisplay />} />
           <Route path="beforeleave" element={<BeforeLeave />} />
           <Route path="modaldemo" element={<ModalDemo />} />
+          <Route path="lazyimage" element={<LazyImage />} />
+          <Route path="searchbar" element={<SearchBar />} />
 
           {/* Using path="*"" means "match anything", so this route
                 acts like a catch-all for URLs that we don't have explicit
