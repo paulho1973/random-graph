@@ -212,4 +212,18 @@ export const DATA = [
 		source: 'https://github.com/paulho1973/random-graph/tree/master/src/LazyComponent',
 		desc: 'Lazy Component',
 	},
+	{
+		id: '26',
+		label: 'Toggle Switch',
+		link: '/toggleswitch',
+		source: 'https://github.com/paulho1973/random-graph/tree/master/src/ToggleSwitch',
+		desc: 'Toggle Switch',
+	},
+	{
+		id: '27',
+		label: 'Dark Mode',
+		link: '/darkmode',
+		source: 'https://github.com/paulho1973/random-graph/tree/master/src/DarkMode',
+		desc: 'Dark Mode',
+	},
 ];

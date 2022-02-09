@@ -28,6 +28,8 @@ import ModalDemo from './ModalDemo';
 import LazyImage from './LazyImage';
 import SearchBar from './SearchBar';
 import LazyComponent from './LazyComponent';
+import ToggleSwitch from './ToggleSwitch';
+import DarkMode from './DarkMode';
 
 import logo from './logo/Soccerball.svg';
 
@@ -76,6 +78,8 @@ export default function App() {
           <Route path="lazyimage" element={<LazyImage />} />
           <Route path="searchbar" element={<SearchBar />} />
           <Route path="lazycomponent" element={<LazyComponent />} />
+          <Route path="toggleswitch" element={<ToggleSwitch />} />
+          <Route path="darkmode" element={<DarkMode />} />
 
           {/* Using path="*"" means "match anything", so this route
                 acts like a catch-all for URLs that we don't have explicit
