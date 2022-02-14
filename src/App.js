@@ -150,7 +150,7 @@ function Home() {
 function About() {
   return (
     <div>
-      <h2>Random Graph is a collection reference of useful React Components with source code</h2>
+      <h2>Random Graph is a collection of React Components with source code</h2>
     </div>
   );
 }
