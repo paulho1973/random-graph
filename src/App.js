@@ -30,6 +30,9 @@ import SearchBar from './SearchBar';
 import LazyComponent from './LazyComponent';
 import ToggleSwitch from './ToggleSwitch';
 import DarkMode from './DarkMode';
+import ModalSlide1 from './ModalSlide1';
+import ModalSlide2 from './ModalSlide2';
+import ModalSlide3 from './ModalSlide3';
 
 import logo from './logo/Soccerball.svg';
 
@@ -80,6 +83,9 @@ export default function App() {
           <Route path="lazycomponent" element={<LazyComponent />} />
           <Route path="toggleswitch" element={<ToggleSwitch />} />
           <Route path="darkmode" element={<DarkMode />} />
+          <Route path="modalslide1" element={<ModalSlide1 />} />
+          <Route path="modalslide2" element={<ModalSlide2 />} />
+          <Route path="modalslide3" element={<ModalSlide3 />} />
 
           {/* Using path="*"" means "match anything", so this route
                 acts like a catch-all for URLs that we don't have explicit
