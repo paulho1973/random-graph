@@ -33,6 +33,7 @@ import DarkMode from './DarkMode';
 import ModalSlide1 from './ModalSlide1';
 import ModalSlide2 from './ModalSlide2';
 import ModalSlide3 from './ModalSlide3';
+import GetDimension from './GetDimension';
 
 import logo from './logo/Soccerball.svg';
 
@@ -86,6 +87,7 @@ export default function App() {
           <Route path="modalslide1" element={<ModalSlide1 />} />
           <Route path="modalslide2" element={<ModalSlide2 />} />
           <Route path="modalslide3" element={<ModalSlide3 />} />
+          <Route path="getdimension" element={<GetDimension />} />
 
           {/* Using path="*"" means "match anything", so this route
                 acts like a catch-all for URLs that we don't have explicit

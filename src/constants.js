@@ -247,4 +247,11 @@ export const DATA = [
 		source: 'https://github.com/paulho1973/random-graph/tree/master/src/ModalSlide3',
 		desc: '',
 	},
+	{
+		id: '31',
+		label: 'Get Dimension',
+		link: '/getdimension',
+		source: 'https://github.com/paulho1973/random-graph/tree/master/src/GetDimension',
+		desc: '',
+	},
 ];
