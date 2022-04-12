@@ -34,6 +34,8 @@ import ModalSlide1 from './ModalSlide1';
 import ModalSlide2 from './ModalSlide2';
 import ModalSlide3 from './ModalSlide3';
 import GetDimension from './GetDimension';
+import ScrollMenu1 from './ScrollMenu1';
+import SwipeMenu1 from './SwipeMenu1';
 
 import logo from './logo/Soccerball.svg';
 
@@ -88,6 +90,8 @@ export default function App() {
           <Route path="modalslide2" element={<ModalSlide2 />} />
           <Route path="modalslide3" element={<ModalSlide3 />} />
           <Route path="getdimension" element={<GetDimension />} />
+          <Route path="scrollmenu1" element={<ScrollMenu1 />} />
+          <Route path="swipemenu1" element={<SwipeMenu1 />} />
 
           {/* Using path="*"" means "match anything", so this route
                 acts like a catch-all for URLs that we don't have explicit

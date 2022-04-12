@@ -1,0 +1,29 @@
+.container {
+    width: 300px;
+}
+
+.scroll {
+  display: flex;
+  background: #152637;
+  border-radius: 3px;
+  white-space: nowrap; /* [1] */
+  overflow-x: auto; /* [2] */
+  -webkit-overflow-scrolling: touch; /* [3] */
+  -ms-overflow-style: -ms-autohiding-scrollbar; /* [4] */ 
+}
+
+/* [5] */
+.scroll::-webkit-scrollbar {
+  display: none; 
+}
+
+
+.navitem {
+    display: inline-block;
+    vertical-align: middle; 
+    padding: 12px 16px 13px;
+    color: #64cce3;
+    &:not(:last-child) {
+      border-right: 1px solid rgba(#727c87, .2); 
+    }
+}

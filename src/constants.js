@@ -254,4 +254,18 @@ export const DATA = [
 		source: 'https://github.com/paulho1973/random-graph/tree/master/src/GetDimension',
 		desc: '',
 	},
+	{
+		id: '32',
+		label: 'Scroll Menu 1',
+		link: '/scrollmenu1',
+		source: 'https://github.com/paulho1973/random-graph/tree/master/src/ScrollMenu1',
+		desc: '',
+	},
+	{
+		id: '33',
+		label: 'Swipe Menu 1',
+		link: '/swipemenu1',
+		source: 'https://github.com/paulho1973/random-graph/tree/master/src/SwipeMenu1',
+		desc: '',
+	},
 ];
