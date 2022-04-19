@@ -36,6 +36,10 @@ import ModalSlide3 from './ModalSlide3';
 import GetDimension from './GetDimension';
 import ScrollMenu1 from './ScrollMenu1';
 import SwipeMenu1 from './SwipeMenu1';
+import Slider1 from './Slider1';
+import ImageSlider1 from './ImageSlider1';
+import ImageSlider2 from './ImageSlider2';
+import RichTextEditorDemo from './RichTextEditorDemo';
 
 import logo from './logo/Soccerball.svg';
 
@@ -92,6 +96,10 @@ export default function App() {
           <Route path="getdimension" element={<GetDimension />} />
           <Route path="scrollmenu1" element={<ScrollMenu1 />} />
           <Route path="swipemenu1" element={<SwipeMenu1 />} />
+          <Route path="slider1" element={<Slider1 />} />
+          <Route path="imageslider1" element={<ImageSlider1 />} />
+          <Route path="imageslider2" element={<ImageSlider2 />} />
+          <Route path="richtexteditordemo" element={<RichTextEditorDemo />} />
 
           {/* Using path="*"" means "match anything", so this route
                 acts like a catch-all for URLs that we don't have explicit

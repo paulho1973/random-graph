@@ -268,4 +268,32 @@ export const DATA = [
 		source: 'https://github.com/paulho1973/random-graph/tree/master/src/SwipeMenu1',
 		desc: '',
 	},
+	{
+		id: '34',
+		label: 'Slider 1',
+		link: '/slider1',
+		source: 'https://github.com/paulho1973/random-graph/tree/master/src/Slider1',
+		desc: '',
+	},
+	{
+		id: '35',
+		label: 'ImageSlider 1',
+		link: '/imageslider1',
+		source: 'https://github.com/paulho1973/random-graph/tree/master/src/ImageSlider1',
+		desc: '',
+	},
+	{
+		id: '36',
+		label: 'ImageSlider 2',
+		link: '/imageslider2',
+		source: 'https://github.com/paulho1973/random-graph/tree/master/src/ImageSlider2',
+		desc: '',
+	},
+	{
+		id: '37',
+		label: 'Rich Text Editor',
+		link: '/richtexteditordemo',
+		source: 'https://github.com/paulho1973/random-graph/tree/master/src/RichTextEditorDemo',
+		desc: '',
+	},
 ];
