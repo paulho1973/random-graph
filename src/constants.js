@@ -296,4 +296,25 @@ export const DATA = [
 		source: 'https://github.com/paulho1973/random-graph/tree/master/src/RichTextEditorDemo',
 		desc: '',
 	},
+	{
+		id: '38',
+		label: 'Drop Zone 1',
+		link: '/dropzone1',
+		source: 'https://github.com/paulho1973/random-graph/tree/master/src/DropZone1',
+		desc: '',
+	},
+	{
+		id: '39',
+		label: 'Drop Zone 2',
+		link: '/dropzone2',
+		source: 'https://github.com/paulho1973/random-graph/tree/master/src/DropZone2',
+		desc: '',
+	},
+	{
+		id: '40',
+		label: 'Drag n Drop Zone ',
+		link: '/dragndropzone',
+		source: 'https://github.com/paulho1973/random-graph/tree/master/src/DragnDropZone',
+		desc: '',
+	},
 ];

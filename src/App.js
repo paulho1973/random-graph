@@ -40,6 +40,9 @@ import Slider1 from './Slider1';
 import ImageSlider1 from './ImageSlider1';
 import ImageSlider2 from './ImageSlider2';
 import RichTextEditorDemo from './RichTextEditorDemo';
+import DropZone1 from "./DropZone1";
+import DropZone2 from "./DropZone2";
+import DragnDropZone from "./DragnDropZone";
 
 import logo from './logo/Soccerball.svg';
 
@@ -100,6 +103,9 @@ export default function App() {
           <Route path="imageslider1" element={<ImageSlider1 />} />
           <Route path="imageslider2" element={<ImageSlider2 />} />
           <Route path="richtexteditordemo" element={<RichTextEditorDemo />} />
+          <Route path="dropzone1" element={<DropZone1 />} />
+          <Route path="dropzone2" element={<DropZone2 />} />
+          <Route path="dragndropzone" element={<DragnDropZone />} />
 
           {/* Using path="*"" means "match anything", so this route
                 acts like a catch-all for URLs that we don't have explicit
