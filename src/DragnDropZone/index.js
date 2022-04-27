@@ -20,12 +20,12 @@ function DragnDropZone() {
 
   const replaceArray = (files, ind) => {
 
-    if (dragAndDrop.draggedFrom) {
-      Drop();
-    } else {
+    if (dragAndDrop.draggedFrom === null) {
       let newArray = [...items];
       newArray[ind] = files[0]
       setItems(newArray);
+    } else {
+      Drop();
     }
   }
 
@@ -121,13 +121,10 @@ function DragnDropZone() {
     const itemDragged = newList[draggedFrom];
     const remainingItems = newList.filter((item, index) => index !== draggedFrom);
 
-
-    if (typeof newList[draggedTo] !== 'undefined') {
       newList = [
       ...remainingItems.slice(0, draggedTo),
       itemDragged,
-      ...remainingItems.slice(draggedTo)];
-    }
+      ...remainingItems.slice(draggedTo)];  
 
     if (draggedTo !== dragAndDrop.draggedTo) {
       setDragAndDrop({
