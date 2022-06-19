@@ -32,7 +32,7 @@ function RichTextEditorDemo() {
 
       var database = JSON.stringify(editor.getContents().ops)
       console.log('DATA', database) 
-      
+
       var converter2 = new QuillDeltaToHtmlConverter(JSON.parse(database), {});
       var html2 = converter2.convert();
       console.log('HTML2', html2)
@@ -40,8 +40,6 @@ function RichTextEditorDemo() {
   }
 
   if (value) console.log('VALUE', value)
-
-  //if (value) console.log("VALUE", value)
   
   return (
 
@@ -49,8 +47,10 @@ function RichTextEditorDemo() {
 
       <RichTextEditor value={value} onChange={handleChange} />
       <div dangerouslySetInnerHTML={{__html: value}}></div>
+      {/*
       <div dangerouslySetInnerHTML={{__html: convertedHTML}}></div>
       <div dangerouslySetInnerHTML={{__html: jsontohtml}}></div>
+      */}
     </div>
 
   );
