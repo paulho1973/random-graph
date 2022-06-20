@@ -48,7 +48,7 @@ import logo from './logo/Soccerball.svg';
 
 export default function App() {
   return (
-    <div>
+    <>
       {/*
       <h1>Basic Example</h1>
 
@@ -113,21 +113,22 @@ export default function App() {
           <Route path="*" element={<NoMatch />} />
         </Route>
       </Routes>
-    </div>
+    </>
   );
 }
 
 function Layout() {
   return (
-    <div className="main2-layout">
+    <div className="main3-layout">
 
-        <div className="header2-layout">
+        <div className="header3-layout">
           RANDOM GRAPH
         </div>
 
-        <div className="content2-layout">
+
+        <div className="content3-layout">
            
-            <div className="left2-layout">
+            <div className="left3-layout">
                 {/*
                 <nav>
                 <ul>
@@ -150,7 +151,7 @@ function Layout() {
                  <Tree data={DATA} />
                 </div>
             </div>
-            <div className="right2-layout">
+            <div className="right3-layout">
                 <Outlet />
                 <FixedButton />
             </div>
