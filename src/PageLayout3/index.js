@@ -25,7 +25,7 @@ const PageLayout3 = () => {
 			</div>
 			<div className={styles.column2}>
 				<div className={styles.rightcard1}>
-					<h2 className={styles.sticky}>Column 2</h2>
+					<h2 className={styles.sticky}>Sticky Column 2</h2>
 				</div>
 			</div>
 		</div>

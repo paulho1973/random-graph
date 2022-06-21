@@ -317,4 +317,11 @@ export const DATA = [
 		source: 'https://github.com/paulho1973/random-graph/tree/master/src/DragnDropZone',
 		desc: '',
 	},
+	{
+		id: '41',
+		label: 'Hide Scrollbar ',
+		link: '/hidescrollbar',
+		source: 'https://github.com/paulho1973/random-graph/tree/master/src/HideScrollBar',
+		desc: '',
+	},
 ];

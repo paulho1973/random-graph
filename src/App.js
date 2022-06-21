@@ -43,6 +43,7 @@ import RichTextEditorDemo from './RichTextEditorDemo';
 import DropZone1 from "./DropZone1";
 import DropZone2 from "./DropZone2";
 import DragnDropZone from "./DragnDropZone";
+import HideScrollBar from "./HideScrollBar";
 
 import logo from './logo/Soccerball.svg';
 
@@ -106,6 +107,7 @@ export default function App() {
           <Route path="dropzone1" element={<DropZone1 />} />
           <Route path="dropzone2" element={<DropZone2 />} />
           <Route path="dragndropzone" element={<DragnDropZone />} />
+          <Route path="hidescrollbar" element={<HideScrollBar />} />
 
           {/* Using path="*"" means "match anything", so this route
                 acts like a catch-all for URLs that we don't have explicit
