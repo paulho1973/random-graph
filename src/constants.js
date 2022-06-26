@@ -324,4 +324,11 @@ export const DATA = [
 		source: 'https://github.com/paulho1973/random-graph/tree/master/src/HideScrollBar',
 		desc: '',
 	},
+	{
+		id: '42',
+		label: 'Before Router Change ',
+		link: '/beforerouterchange',
+		source: 'https://github.com/paulho1973/random-graph/tree/master/src/BeforeRouterChange',
+		desc: '',
+	},
 ];

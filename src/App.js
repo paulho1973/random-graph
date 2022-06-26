@@ -23,6 +23,7 @@ import SectionScroll from './SectionScroll';
 import ReactRef from './ReactRef';
 import DragDropImage from './DragDropImage';
 import DragDropDisplay from './DragDropDisplay';
+import BeforeRouterChange from './BeforeRouterChange';
 import BeforeUnload from './BeforeUnload';
 import ModalDemo from './ModalDemo';
 import LazyImage from './LazyImage';
@@ -87,6 +88,7 @@ export default function App() {
           <Route path="reactref" element={<ReactRef />} />
           <Route path="dragdropimage" element={<DragDropImage />} />
           <Route path="dragdropdisplay" element={<DragDropDisplay />} />
+          <Route path="beforerouterchange" element={<BeforeRouterChange />} /> 
           <Route path="beforeunload" element={<BeforeUnload />} />
           <Route path="modaldemo" element={<ModalDemo />} />
           <Route path="lazyimage" element={<LazyImage />} />
