@@ -45,6 +45,9 @@ import DropZone1 from "./DropZone1";
 import DropZone2 from "./DropZone2";
 import DragnDropZone from "./DragnDropZone";
 import HideScrollBar from "./HideScrollBar";
+import Carousel1 from "./Carousel1";
+import Carousel2 from "./Carousel2";
+import Carousel3 from "./Carousel3";
 
 import logo from './logo/Soccerball.svg';
 
@@ -110,6 +113,9 @@ export default function App() {
           <Route path="dropzone2" element={<DropZone2 />} />
           <Route path="dragndropzone" element={<DragnDropZone />} />
           <Route path="hidescrollbar" element={<HideScrollBar />} />
+          <Route path="carousel1" element={<Carousel1 />} />
+          <Route path="carousel2" element={<Carousel2 />} />
+          <Route path="carousel3" element={<Carousel3 />} />
 
           {/* Using path="*"" means "match anything", so this route
                 acts like a catch-all for URLs that we don't have explicit

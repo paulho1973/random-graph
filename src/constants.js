@@ -331,4 +331,25 @@ export const DATA = [
 		source: 'https://github.com/paulho1973/random-graph/tree/master/src/BeforeRouterChange',
 		desc: '',
 	},
+	{
+		id: '43',
+		label: 'Carousel 1 ',
+		link: '/carousel1',
+		source: 'https://github.com/paulho1973/random-graph/tree/master/src/Carousel1',
+		desc: '',
+	},
+	{
+		id: '44',
+		label: 'Carousel 2 ',
+		link: '/carousel2',
+		source: 'https://github.com/paulho1973/random-graph/tree/master/src/Carousel2',
+		desc: '',
+	},
+	{
+		id: '45',
+		label: 'Carousel 3 ',
+		link: '/carousel3',
+		source: 'https://github.com/paulho1973/random-graph/tree/master/src/Carousel3',
+		desc: '',
+	},
 ];
